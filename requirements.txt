@@ -1,0 +1,27 @@
+# Core Data + ML
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+scipy==1.13.1
+
+# Model persistence
+joblib==1.4.2
+
+# MLOps tracking
+mlflow==2.14.1
+dvc==3.50.2
+
+# API layer
+fastapi==0.112.0
+uvicorn==0.30.5
+pydantic==2.8.2
+
+# Visualization + explainability
+matplotlib==3.9.1
+seaborn==0.13.2
+shap==0.46.0
+
+# Utilities
+pyyaml==6.0.2
+tqdm==4.66.4
+python-dotenv==1.0.1
