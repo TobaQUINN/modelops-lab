@@ -20,15 +20,15 @@ I need a clear and maintainable project structure, and how to properly handle Ex
 Chosen option: **Structured hierarchy with EDA in Jupyter notebooks, production code in Python scripts**
 
 ## Pros and Cons of Options
-**Flat structure and EDA in scripts**
-✅ Simple to set up
-❌ May be confusing for larger projects, and less neat.
+Flat structure and EDA in scripts
+-Simple to set up
+-May be confusing for larger projects, and less neat.
 
 
-**Structured hierarchy**
-✅ Clear separation of responsibilities
-✅ Easier collaboration and scaling
-❌ Slightly more setup effort.(Though did most of it in the terminal)
+Structured hierarchy
+-Clear separation of responsibilities
+-Easier collaboration and scaling
+-Slightly more setup effort.(Though did most of it in the terminal)
 
 
 ## Links and References
