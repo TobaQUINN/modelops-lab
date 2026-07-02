@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python src/data/preprocess.py
+    deps:
+    - path: data/raw/WineQT.csv
+      hash: md5
+      md5: e2e57e4c41e6ee0213fb12e5a70f4bfb
+      size: 78057
+    - path: src/data/preprocess.py
+      hash: md5
+      md5: 4849d3c47fd7a181e005935e4fafefed
+      size: 1299
+    params:
+      params.yaml:
+        split.random_state: 42
+        split.test_size: 0.2
+    outs:
+    - path: data/processed/test.csv
+      hash: md5
+      md5: 3ef741af927b5eedc867fcbf147e6895
+      size: 13693
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 27b2f5a843930c0f5e14250b6cbeaec7
+      size: 54487
